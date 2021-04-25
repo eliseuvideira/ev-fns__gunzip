@@ -1,5 +1,5 @@
 {
-  "name": "gunzip",
+  "name": "@ev-fns/gunzip",
   "version": "0.3.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
