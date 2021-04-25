@@ -12,12 +12,16 @@
     "lib/**/*"
   ],
   "devDependencies": {
+    "@ev-fns/gzip": "^0.1.6",
     "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.41",
     "jest": "^26.6.3",
     "ts-jest": "^26.5.5",
     "typescript": "^4.2.4"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@ev-fns/pipe": "^0.1.4"
+  },
   "scripts": {
     "build": "tsc",
     "coverage": "jest --coverage",

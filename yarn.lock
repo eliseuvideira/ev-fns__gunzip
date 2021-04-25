@@ -295,6 +295,18 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@ev-fns/gzip@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@ev-fns/gzip/-/gzip-0.1.6.tgz#f333eec2dfe0b113bd9c3ac30a0ab623664bd8cb"
+  integrity sha512-AkyM3L3K+x7kbHauad0j1Vmz3bSf8eb3O38S52Eo9tCklSIXdAUn17/plM2viJJzsNkjk17MxkIf4deOuLanZw==
+  dependencies:
+    "@ev-fns/pipe" "^0.1.4"
+
+"@ev-fns/pipe@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@ev-fns/pipe/-/pipe-0.1.4.tgz#6c3e52203e6dbfe71bdf0ab2c19c7a88881f50f9"
+  integrity sha512-qOCdwKVRyz3HZazrYO1FBTqL97Ohhyv0bod6+YZqLwaZn3ehN990TF9CNCZR9yw4dFHTPoO2KzBFzOTYLL5G+Q==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -563,7 +575,7 @@
     jest-diff "^26.0.0"
     pretty-format "^26.0.0"
 
-"@types/node@*":
+"@types/node@*", "@types/node@^14.14.41":
   version "14.14.41"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.41.tgz#d0b939d94c1d7bd53d04824af45f1139b8c45615"
   integrity sha512-dueRKfaJL4RTtSa7bWeTK1M+VH+Gns73oCgzvYfHZywRCoPSd8EkXBL0mZ9unPTveBn+D9phZBaxuzpwjWkW0g==
