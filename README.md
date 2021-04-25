@@ -1,15 +1,21 @@
-# {{package-name}}
+# @ev-fns/gunzip
 
-{{package-description}}
+Async gunzip file
 
 ## Install
 
 ```sh
-yarn add {{package-name}}
+yarn add @ev-fns/gunzip
 ```
 
 ## Usage
 
 ```js
-const { package } = require("{{package-name}}");
+const { gunzip } = require("@ev-fns/gunzip");
+
+const filename = "./backup_file.gz";
+
+gunzip(filename).then(() => {
+  console.log("gunzip finished");
+});
 ```
